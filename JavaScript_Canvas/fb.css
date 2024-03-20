@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+}
+
+#section {
+  width: 350px;
+  height: 550px;
+  display: block;
+  text-align: center;
+  text-shadow: 3px 1px rgb(229, 224, 224);
+  font-weight: bold;
+}
+.submit {
+  border-radius: 5px;
+  border: 2px solid black;
+}
+.submit:hover {
+  background-color: green;
+  color: white;
+}
+.result {
+  text-align: left;
+  margin-left: 50px;
+  width: 250px;
+  color: white;
+  text-shadow: 2px 3px black;
+}
+.game_elements{
+  width: 98%;
+  height: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+  /* background: url("https://media.istockphoto.com/vectors/pixel-art-style-noise-seamless-vector-background-colorful-vector-id530769666"); */
+  background: url("https://pbs.twimg.com/media/EZ783JZXQAYMXI2.jpg");
+  background-size: cover;
+  border-radius: 20px;
+  border: 2px solid black;
+}
+.boot_game{
+  width: 288px;
+  height: 512px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.game_canvas{
+  border-radius: 20px;
+  border: 2px solid black;
+}
+
+.game_reload_btn{
+  width: 100px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+.game_reload_btn:hover, .game_btn:hover{
+  background-color: green;
+  color: white;
+}
+
+.game_btn {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  margin-right: 10px;
+}
+
+#boot_btn {
+  background-image: url("img_game/boot.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+#bird_btn {
+  background-image: url("img_game/bird.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.game {
+  display: flex;
+  align-items: center;
+}
+

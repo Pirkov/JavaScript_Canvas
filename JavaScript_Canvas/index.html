@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pirkov O.V. Homework-12</title>
+    <link rel="shortcut icon" href="img_game/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="fb.css">
+</head>
+<body>
+    <div class="game_elements">
+        <div id="section">
+<!--Сделать форму ввода имени и ввод результата напротив каждого имени-->
+            <h1>Ваше досягнення</h1>
+            <form id="username" method="POST" action="#" onsubmit="return false">
+                <input name="username" id="new_name" type="text">
+                <button type="submit" class="submit">username</button>
+                <div class="result">Name:   <span id="showName"></span><br>
+                Score:   <span id="showScore"></span>
+                </div>
+            </form>
+        </div>
+        <div class="boot_game">
+            <canvas id="canvas" class="game_canvas" width="288" height="512"></canvas>
+        </div>
+
+<div class="game">
+        <button id="boot_btn" class="game_btn"></button>
+        <button id="bird_btn" class="game_btn"></button>
+        <button id="game_reload_btn" class="game_reload_btn">ПЕРЕГРАТИ</button>
+    </div>
+    </div>
+    <script src="JS/script.js"></script>
+</body>
+</html>
